@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Hangman{
     public static void main(String[] args) {
-        String[] words = {"commit", "fork", "discard", "changes"};
+        String[] words = {"commit", "fork", "discard", "changes","repository"};
         // Pick random index of words array
         int randomWordNumber = (int) (Math.random() * words.length);
         // Create an array to store already entered letters
